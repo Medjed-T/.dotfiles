@@ -1,9 +1,9 @@
-#!/bin/bash
-#!/bin/zsh
+# !/bin/bash
+# !/bin/zsh
 
 DOTFILES_PATH=~/dotfiles
 
-# リンクを貼らないディレクトリやファイルは以下のコードで除きます
+# シンボリックリンクを貼らないファイルを除外
 for f in .??*
 do
   [ "$f" = ".git" ] && continue
