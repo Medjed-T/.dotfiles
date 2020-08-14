@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTFILES_PATH=~/dotfiles
+DOTFILES_PATH=~/.dotfiles
 
 # リンクを貼らないディレクトリやファイルは以下のコードで除きます
 for f in .??*
